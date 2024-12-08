@@ -9,7 +9,7 @@ class TestMathFunction(unittest.TestCase):
 
     def test_multi(self):
         self.assertEqual(mul(2, 5), 10)
-        self.assertEqual(mul(4, 10), 41)
+        self.assertEqual(mul(4, 10), 40)
 
 if __name__ == "__main__":
     unittest.main()
